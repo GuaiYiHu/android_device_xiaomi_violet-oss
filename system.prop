@@ -130,7 +130,6 @@ ro.vendor.qti.config.zram=true
 
 #Property to enable perf boosts from System Server
 vendor.perf.gestureflingboost.enable=true
-vendor.display.disable_hw_recovery=1
 
 #Property to enable WorkloadClassifier
 vendor.perf.workloadclassifier.enable=true
