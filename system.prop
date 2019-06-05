@@ -20,7 +20,7 @@ persist.rcs.supported=0
 dev.pm.dyn_samplingrate=1
 ro.colorpick_adjust=true
 #Property to enable display default color mode
-vendor.display.enable_default_color_mode=0
+vendor.display.enable_default_color_mode=1
 
 qcom.hw.aac.encoder=true
 
