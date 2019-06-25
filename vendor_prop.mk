@@ -71,6 +71,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio_hal.in_period_size=144 \
     vendor.audio_hal.period_multiplier=3 \
     vendor.audio.adm.buffering.ms=2 \
+    persist.vendor.bt.aac_frm_ctl.enabled=true \
     ro.wlan.chip=39xx \
     ro.wlan.mimo=1 \
     ro.opengles.version=196610 \
