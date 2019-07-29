@@ -139,13 +139,17 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
+    android.hardware.graphics.mapper@2.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
+    gralloc.sm6150 \
+    hwcomposer.sm6150 \
     libdisplayconfig \
     libqdMetaData.system \
     libtinyxml \
     libvulkan \
-    vendor.display.config@1.5.vendor
+    memtrack.sm6150 \
+    vendor.qti.hardware.display.allocator@1.0-service
 
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
