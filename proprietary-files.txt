@@ -428,16 +428,12 @@ vendor/etc/qdcm_calib_data_nt36672a_video_mode_dsi_shenchao_panel.xml
 vendor/lib/hw/hwcomposer.sm6150.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdpps.so
-vendor/lib/libdrm.so
-vendor/lib/libdrmutils.so
 vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsdm-colormgr-algo.so
 vendor/lib64/hw/hwcomposer.sm6150.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdpps.so
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libsdm-colormgr-algo.so
