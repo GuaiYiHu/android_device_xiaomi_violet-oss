@@ -34,7 +34,6 @@ vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/tas25xx_TI_0.bin
 
 # Alarm - from Redmi K20 davinci-user 9 PKQ1.190302.001 V10.3.6.0.PFJCNXM release-keys
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk|bef295639460c833b3a2ddaf11f9031404b39f15
