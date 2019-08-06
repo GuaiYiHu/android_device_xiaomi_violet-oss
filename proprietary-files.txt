@@ -489,7 +489,6 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ecf91d0902c45d133425f69903844d26871
 vendor/bin/qseecomd
 vendor/lib/libdrmfs.so
 vendor/lib/libQSEEComAPI.so
-vendor/lib/libsdedrm.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libGPreqcancel_svc.so
@@ -497,7 +496,6 @@ vendor/lib64/libGPreqcancel.so
 vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsecureui.so
 vendor/lib64/libSecureUILib.so
@@ -657,6 +655,10 @@ vendor/lib/libOpenCL.so
 vendor/lib/librs_adreno_sha1.so
 vendor/lib/librs_adreno.so
 vendor/lib/libRSDriver_adreno.so
+
+# Graphics (DRM)
+vendor/lib/libsdedrm.so
+vendor/lib64/libsdedrm.so
 
 # Graphics (HDR)
 vendor/lib/libhdr_tm.so
