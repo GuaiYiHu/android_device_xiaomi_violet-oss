@@ -489,6 +489,7 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ecf91d0902c45d133425f69903844d26871
 
 # DRM
 vendor/bin/qseecomd
+vendor/etc/gpfspath_oem_config.xml
 vendor/lib/libdrmfs.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libdrmfs.so
