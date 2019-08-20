@@ -110,8 +110,7 @@ if [ "$(getprop persist.vendor.usb.config)" == "" -a \
 		          setprop persist.vendor.usb.config diag,serial_cdev,rmnet,dpl,adb
 		      ;;
 	              "msmnile" | "sm6150" | "trinket")
-		          # Workaround from MIUI to avoid enabling debug options on every boot
-		          # setprop persist.vendor.usb.config diag,serial_cdev,rmnet,dpl,qdss,adb
+			  setprop persist.vendor.usb.config diag,serial_cdev,rmnet,dpl,qdss,adb
 		      ;;
 	              *)
 		          setprop persist.vendor.usb.config diag,adb
