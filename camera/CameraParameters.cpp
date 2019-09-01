@@ -161,13 +161,13 @@ const char CameraParameters::PIXEL_FORMAT_BAYER_RGGB[] = "bayer-rggb";
 const char CameraParameters::PIXEL_FORMAT_ANDROID_OPAQUE[] = "android-opaque";
 
 // Values for focus mode settings.
-const char CameraParameters::FOCUS_MODE_AUTO[] = "broken-auto";
+const char CameraParameters::FOCUS_MODE_AUTO[] = "auto";
 const char CameraParameters::FOCUS_MODE_INFINITY[] = "infinity";
-const char CameraParameters::FOCUS_MODE_MACRO[] = "broken-macro";
+const char CameraParameters::FOCUS_MODE_MACRO[] = "macro";
 const char CameraParameters::FOCUS_MODE_FIXED[] = "fixed";
 const char CameraParameters::FOCUS_MODE_EDOF[] = "edof";
 const char CameraParameters::FOCUS_MODE_CONTINUOUS_VIDEO[] = "continuous-video";
-const char CameraParameters::FOCUS_MODE_CONTINUOUS_PICTURE[] = "auto";
+const char CameraParameters::FOCUS_MODE_CONTINUOUS_PICTURE[] = "continuous-picture";
 
 // Values for light fx settings
 const char CameraParameters::LIGHTFX_LOWLIGHT[] = "low-light";
@@ -252,6 +252,7 @@ void CameraParameters::set(const char *key, const char *value)
     }
 
     mMap.replaceValueFor(String8(key), String8(value));
+    mMap.replaceValueFor(String8("focus-mode"), String8("continuous-picture"));
 }
 
 void CameraParameters::set(const char *key, int value)
